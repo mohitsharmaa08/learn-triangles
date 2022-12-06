@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/quiz.css">
+    <script src="/scripts/quiz.js" defer></script>
+    <title>Traingle Quiz</title>
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a href="/index.html" class="link ">
+                        Is Triangle
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a href="quiz.html" class="link nav-bar-link-active">
+                    Triangle Quiz
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a href="hypo.html" class="link">
+                    Hypotenuse of a triangle
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a href="area.html" class="link">
+                    Area of a triangle
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+        <main  class="container container-centered">
+            <h1>
+                Traingle Quiz
+            </h1>
+            <p>
+                How well you know traingles, check your education about traingles. By answering the hardest triangle quiz questions. For each correct answer you get <strong>+50</strong> points and for each wrong answer you get <strong>-50</strong> points.                 
+            </p>
+            <form id="quiz-form" onsubmit="return false"    >
+                
+                <div class="quiz-ques-container">
+                    <p>Question1: What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                    <input type="radio" name="question1" id="45" value="45">
+                    <label for="45">45°</label>
+                    <input type="radio" name="question1" id="90" value="90">
+                    <label for="90">90°</label>
+                    <input type="radio" name="question1" id="60" value="60">
+                    <label for="60">60°</label>
+                </div>
+
+                <div class="quiz-ques-container">
+                    <p>Question2: If a triangle has an angle of 90° degrees, what is it called?</p>
+                    <input type="radio" name="question2" id="obtuse" value="obtuse">
+                    <label for="obtuse">obtuse</label>
+                    <input type="radio" name="question2" id="acute" value="acute">
+                    <label for="acute">acute</label>
+                    <input type="radio" name="question2" id="right angled" value="right angled">
+                    <label for="right angled">right angled</label>
+                </div>
+
+                <div class="quiz-ques-container">
+                    <p>Question3: If two sides of a triangle are not equal, the triangle is called?
+                    </p>
+                    <input type="radio" name="question3" id="scalene" value="scalene">
+                    <label for="scalene">scalene</label>
+                    <input type="radio" name="question3" id="isosceles" value="isosceles">
+                    <label for="isosceles">isosceles</label>
+                    <input type="radio" name="question3" id="equilateral" value="equilateral">
+                    <label for="equilateral">equilateral</label>
+                </div>
+
+                <div class="quiz-ques-container">
+                    <p>Question4: If a triangle has 2 sides with equal lengths and 60° angle between them. What is the type of triangle?
+                    </p>
+                    <input type="radio" name="question4" id="equilateral2" value="equilateral2">
+                    <label for="equilateral2">equilateral</label>
+                    <input type="radio" name="question4" id="isosceles2" value="isosceles2">
+                    <label for="isosceles2">isosceles</label>
+                    <input type="radio" name="question4" id="both" value="both">
+                    <label for="both">both</label>
+                </div>
+
+                <div class="quiz-ques-container">
+                    <p>Question5: If a triangle has 3 sides, what will be the sum of angles of a triangle?
+                    </p>
+                    <input type="radio" name="question5" id="150" value="150">
+                    <label for="150">150°</label>
+                    <input type="radio" name="question5" id="180" value="180">
+                    <label for="180">180°</label>
+                    <input type="radio" name="question5" id="160" value="160">
+                    <label for="160">160°</label>
+                </div>
+
+
+                
+
+                <button type="submit" id="submit-quiz" form="quiz-form">Check Answers</button>
+
+
+            <h2 id="message">
+
+            </h2>
+            
+                
+            </form>
+
+        </main>
+</body>
+</html>
